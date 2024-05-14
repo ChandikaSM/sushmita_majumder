@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/sushmita_majumder/static/css/main.4e0ab7c6.css",
+    "main.js": "/sushmita_majumder/static/js/main.3a64f975.js",
+    "static/js/453.c937a3a2.chunk.js": "/sushmita_majumder/static/js/453.c937a3a2.chunk.js",
+    "static/media/project-img3.jpg": "/sushmita_majumder/static/media/project-img3.daac37a549665a086e14.jpg",
+    "static/media/project-img4.jpg": "/sushmita_majumder/static/media/project-img4.2e018e66d6d1cc4a0bf9.jpg",
+    "static/media/color-sharp.png": "/sushmita_majumder/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/project-img2.jpg": "/sushmita_majumder/static/media/project-img2.8b45bcac2173757a9460.jpg",
+    "static/media/color-sharp2.png": "/sushmita_majumder/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Sushmita.png": "/sushmita_majumder/static/media/Sushmita.9c3dbaee65ad02b61003.png",
+    "static/media/project-img5.jpg": "/sushmita_majumder/static/media/project-img5.b14d94c5e09c15f6b717.jpg",
+    "static/media/project-img6.jpg": "/sushmita_majumder/static/media/project-img6.83fb623ee59b51557125.jpg",
+    "static/media/project-img1.png": "/sushmita_majumder/static/media/project-img1.ec8a951df4fbf399ada4.png",
+    "static/media/header-img.svg": "/sushmita_majumder/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/logo.jpg": "/sushmita_majumder/static/media/logo.a504e28fb72c9448f64e.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/sushmita_majumder/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/sushmita_majumder/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/sushmita_majumder/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/revicons.eot": "/sushmita_majumder/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/sushmita_majumder/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/sushmita_majumder/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/sushmita_majumder/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/sushmita_majumder/index.html",
+    "static/media/nav-icon1.svg": "/sushmita_majumder/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/sushmita_majumder/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.4e0ab7c6.css.map": "/sushmita_majumder/static/css/main.4e0ab7c6.css.map",
+    "main.3a64f975.js.map": "/sushmita_majumder/static/js/main.3a64f975.js.map",
+    "453.c937a3a2.chunk.js.map": "/sushmita_majumder/static/js/453.c937a3a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e0ab7c6.css",
+    "static/js/main.3a64f975.js"
+  ]
+}
