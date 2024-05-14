@@ -31,8 +31,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-color: f5f0f6 !important;
+  color: #219ebc !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -92,14 +92,14 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #25b9de;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #fff !important;
+  font-weight: 500;
+  color: #26b4cd !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -113,6 +113,14 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+.logo-design {
+   border-radius: 9px 3px 9px 5px;
+   height: 100%;
+   width: 70%;
+}
+
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
@@ -120,7 +128,7 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background: rgba(10, 62, 71, 0.1);
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -134,7 +142,7 @@ span.navbar-text {
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #74c9ee;
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -234,7 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -337,38 +345,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
-.skill, .shlok {
+.skill {
   padding: 0 0 50px 0;
   position: relative;
 }
-.skill-bx, .shlok-bx {
+.skill-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
-.skill h2, .shlok h2 {
+.skill h2 {
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill p, .shlok p {
+.skill p{
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider, .shlok-slider {
+.skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img, .shlok-slider .item img {
+.skill-slider .item img{
   width: 50%;
   margin: 0 auto 15px auto;
 }
-.shlok-slider h5 {
+.skill-slider h5 {
   font-size: 1rem;
 }
 .background-image-left {
@@ -383,7 +391,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb(236, 237, 237);
 }
 .project h2 {
 	font-size: 45px;
@@ -580,8 +588,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
   background-position: center center;
+  background-color: rgb(236, 237, 237);
   background-size: cover;
   background-repeat: no-repeat;
 }

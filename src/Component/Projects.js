@@ -1,11 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp from "../assets/img/color-sharp2.png";
-import image_one from "../assets/img/project-img1.png";
-import image_two from "../assets/img/project-img1.png";
+import image_one from "../assets/img/project-img4.jpg";
+import image_two from "../assets/img/project-img3.jpg";
 import image_three from "../assets/img/project-img1.png";
-import image_four from "../assets/img/project-img1.png";
-import image_five from "../assets/img/project-img1.png";
+import image_four from "../assets/img/project-img6.jpg";
+import image_five from "../assets/img/project-img2.jpg";
+import image_six from "../assets/img/project-img5.jpg";
+
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
@@ -35,7 +37,13 @@ export const Projects = () => {
             title: "Web Development",
             description: "done",
             imgUrl: image_five,
-        }
+        },
+        {
+            title: "Web Development",
+            description: "done",
+            imgUrl: image_six,
+        },
+        
 
     ]
     return (
@@ -78,7 +86,9 @@ export const Projects = () => {
                                     }
                                 </Row>
                             </Tab.Pane>
-                           <Tab.Pane eventKey="second"></Tab.Pane>
+                           <Tab.Pane eventKey="second">
+                            
+                           </Tab.Pane>
 
                         <Tab.Pane eventKey="third"></Tab.Pane>
                                                 </Tab.Content>

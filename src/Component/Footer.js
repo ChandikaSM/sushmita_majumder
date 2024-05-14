@@ -1,6 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { Mailchimpform } from "./Mailchimpform";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo.jpg";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -10,9 +10,18 @@ export const Footer = () => {
       <footer className="footer">
         <Container>
             <Row className="align-item-center">
-                <Mailchimpform />
+                {/* <Mailchimpform /> */}
                 <Col sm={6}>
-                    <img src={logo} alt="logo"/>
+                    <span>NAME: <b>SUSHMITA MAJUMDER</b></span>
+                    <br />
+                    <span>EMAIL: <a type="email" href="sushmaj2347@gmail.com">sushmaj2347@gmail.com</a></span>
+                    <br/>
+                    <span>PHONE NUMBER: <b>6009031334</b></span>
+                    <br/>
+                    <span>CURRENT WORKING COMPANY: <b>XLAYER</b></span>
+                    <br/>
+                    <span>CURRENT WORKING PROJECT: <b>SOON TO BE MENTIONED</b></span>
+
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                     <div className="social-icon">

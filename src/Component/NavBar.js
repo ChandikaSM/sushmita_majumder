@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -30,7 +30,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""} >
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} className="logo-design" alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -54,11 +54,11 @@ export const NavBar = () => {
                                 <img src={navIcon3} alt="" />
                             </a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}>
+                        {/* <button className="vvd" onClick={() => console.log('connect')}> */}
                             <span>
                                 Let's connect
                             </span>
-                        </button>
+                        {/* </button> */}
                     </span>
                 </Navbar.Collapse>
             </Container>
